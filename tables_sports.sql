@@ -1,10 +1,10 @@
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(1,'les squats', 01, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(2,'marche a pieds', 02, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(3,'les pompes', 03, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(4,'les mouvements harlow', 04, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(5,'les bridge ou leves de bassin', 05, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(6,'travail cardio', 06, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(7,'courir', 07, 041);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(8,'les fentes alternes', 07, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(9,'travail cardio', 01, 044);
-INSERT INTO sports (id_sport,nom_sport,id_date,id_heure)values(10,'travail cardio', 03, 044);
+--
+-- create table Sport by GROUPE 8
+--
+CREATE TABLE sports
+(
+    id_sport INT PRIMARY KEY NOT NULL,
+    nom_sport VARCHAR(255) NOT NULL,
+    id_date INT NOT NULL,
+    id_heure INT NOT NULL
+);
