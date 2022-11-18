@@ -1,15 +1,30 @@
---
--- create table SOUSCRIPTIONS by GROUPE 8
---
-
-CREATE TABLE SOUSCRIPTIONS 
-(
-  id_utilisateur        NUMBER(10) PRIMARY KEY NOT NULL, 
-  date_debut_abonnement DATE NOT NULL, 
-  date_fin_abonnement   DATE NOT NULL, 
-  frais_abonnement      VARCHAR2(255) NOT NULL, 
-  options_abonnement    VARCHAR2(255) NOT NULL, 
-  id_programme_regime   NUMBER(10) NOT NULL,
-  type_de_paiement VARCHAR2(255) NOT NULL
-);
-
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (42, '15/01/2022', '15/02/2022','50000f','un mois', 101, 'payement electronnique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (43, '14/02/2022', '21/02/2022','10$','une semaine', 102, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (44, '20/03/2022', '03/04/2022', '25$', 'deux semaine', 103, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (45, '18/02/2022', '18/03/2022', '50000f', 'un mois', 104, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (46, '20/01/2022', '20/02/2022', '5000f', 'une semaine', 105, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (47, '28/03/2022', '28/04/2022', '50$', 'un mois', 106, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (48, '10/04/2022', '24/04/2022', '15000f', 'deux semaine', 107, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (49, '19/04/2022', '26/04/2022', '5000f', 'une semaine', 108, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (50, '05/05/2022', '19/05/2022', '15000f', 'deux semaine', 109, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (51, '07/06/2022', '07/07/2022', '50$', 'un mois', 110, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (52, '15/06/2022', '15/07/2022', '50$', 'un mois', 111, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (53, '01/07/2022', '15/07/2022', '15000f', 'deux semaine', 112, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (54, '15/05/2022', '22/05/2022', '5000f', 'une semaine', 113, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (55, '25/05/2022', '25/06/2022', '50000f', 'un mois', 114, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (56, '17/06/2022', '24/06/2022', '10$', 'une semaine', 115, 'payement banacaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (57, '29/06/2022', '12/07/2022', '15000f', 'deux semaine', 116, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (58, '01/07/2022', '02/08/2022', '50000f', 'un mois', 117, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (59, '15/07/2022', '22/07/2022', '25$', 'deux semaine', 118, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (60, '19/08/2022', '26/08/2022', '10$', 'une semaine', 119, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (61, '20/09/2022', '20/09/2022', '50$', 'un mois', 120, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (62, '09/07/2022', '24/07/2022', '15000f', 'deux semaine', 121, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (63, '01/05/2022', '09/05/2022', '5000f', 'une semaine', 122, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (64, '01/09/2022', '02/10/2022', '50000f', 'un mois', 123, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (65, '15/09/2022', '29/09/2022', '25$', 'deux semaine', 124, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (66, '20/09/2022', '27/09/2022', '10$', 'une semaine', 125, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (67, '04/10/2022', '05/11/2022', '50$', 'un mois', 126, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (68, '20/10/2022', '27/10/2022', '5000f', 'une semaine', 127, 'payement electronique');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (69, '05/11/2022', '20/11/2022', '25$', 'deux semaine', 128, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (70, '10/12/2022', '10/01/2023', '50000f', 'un mois', 129, 'payement bancaire');
+insert into SOUSCRIPTIONS (id_utilisateur, date_debut_abonnement, date_fin_abonnement, frais_abonnement, options_abonnement, id_programme_regime, type_de_paiement) values (71, '27/08/2022', '07/09/2022', '5000', 'une semaine', 130, 'payement electronique');
