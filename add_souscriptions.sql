@@ -1,0 +1,2 @@
+INSERT INTO SOUSCRIPTIONS(id_utilisateur,date_debut_abonnement,date_fin_abonnement,frais_abonnement,option_abonnement,id_programme_regime, type_de_paiement)
+VALUES (&id_utilisateur, '&date_debut_abonnement','&date_fin_abonnement','&frais_abonnement','&option_abonnement',&id_programme_regime, '&type_de_paiement');
