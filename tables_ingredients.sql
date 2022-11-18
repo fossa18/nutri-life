@@ -1,11 +1,60 @@
---
--- create table INGREDIENTS by GROUPE 8
---
-
-CREATE TABLE INGREDIENTS 
-(
-  id_ingredient  NUMBER(10) PRIMARY KEY NOT NULL, 
-  nom_ingredient VARCHAR2(255)
-);
-
-
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(1,'cereales lait ecreme magarines');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(2,'poisson legume ananas pain');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(3,'poulet oignon tomate carotte fromaage blanc eau');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(4,'lait patte saumon huile soja');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(5,'pain legume cereale');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(6,'poisson oeuf');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(7,'saumon olive');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(8,'patte viande boeuf eau');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(9,'legume maquereau soja');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(10,'pain complet fromage blanc orange');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(11,'riz haricot rouge viande');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(12,'fruit et legumes');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(13,'lait entier pain complet');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(14,'viande boeuf');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(15,'legume maquereau huile soja');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(16,'pain oeuf lait ecreme soja');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(17,'poisson fruit de mer salade');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(18,'poulet ppoivron agromes riz');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(19,'pain complet beurre');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(20,'poisson epinard raisin yaourt fruit');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(21,'riz complet viande');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(22,'pain fromage creme banane lait');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(23,'salade carotte tomate ananas');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(24,'poulet riz fruit');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(25,'fruit legumes pomme de terre mais salade');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(26,'poisson fruit de mer raisin');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(27,'legumes lait ecreme soja');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(28,'fromage pommes oain complet eau');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(29,'pain yaourt');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(30,'salade tomate oirgnon carotte yaourt miel');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(31,'the au citron');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(32,'viande sans graisse');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(33,'oeufs');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(34,'cafe pain complet');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(35,'fromage blanc tisage');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(36,'chou rouge vinaigre');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(37,'pain complet cafe et margerine');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(38,'tomate salade citron oignon carotte');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(39,'fruit pain complet');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(40,'cafe pure carotte lait');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(41,'saumon haricot vert fruit');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(42,'the vert pain sesam');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(43,'jambon au dinde carotte');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(44,' salade amande huile');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(45,'pomme cafe');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(46,'oeuf epinard pain complet');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(47,'poulet champignon tomate');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(48,'fruit pasteque');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(49,'lait sans sucre pain complet');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(50,'haricot fromage jus naturel');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(51,'riz brun thon huile olive');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(52,'eau');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(53,'pain entier jambon de dinde salade carotte');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(54,'salade poulet');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(55,'the sans sucre');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(56,'pain oeuf tomate');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(57,'salade saumon pain');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(58,'cafe sans sucre pain ble beurre');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(59,'salade poulet epinard');
+INSERT INTO INGREDIENTS(id_ingredient,nom_ingredient)VALUES(60,'viande pomme de terre');
