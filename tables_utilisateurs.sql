@@ -1,11 +1,30 @@
---
--- create table UTILISATEURS by GROUPE 8
---
-
-CREATE TABLE UTILISATEURS 
-(
-  id_utilisateur    NUMBER(10) PRIMARY KEY NOT NULL, 
-  email             VARCHAR2(255) NOT NULL, 
-  mot_de_passe      VARCHAR2(255) NOT NULL, 
-  jours_inscription DATE NOT NULL
-);
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (42, 'Alanejunior@gmail.com','Alane01', '15/01/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (43, 'takougangliza@gmail.com', 'lisa123', '14/02/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (44, 'mbahjenny@gmail.com', 'jennymbah123', '20/03/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (45, 'tiamjoseph@gmail.com', 'joseph14', '18/02/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (46, 'bavouaborel@gmail.com', 'borel78', '20/01/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (47, 'zebazeryan@gmail.com', 'ryan124', '28/03/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (48, 'darelatsangou@gmail.com', 'darel456', '10/04/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (49, 'angelenguiakam@gmail.com', 'angele896', '19/04/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (50, 'rebeccamanga@gmail.com', 'rebecca123', '05/05/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (51, 'lauremalonju@gmail.com', 'laure147', '07/06/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (52, 'lauremotso@gmail.com','123456', '15/06/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (53, 'bricelontsi@gmail.com', 'janvier123', '01/07/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (54, 'kangueloic@gmail.com','loic123', '15/05/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (55, 'josuenelson@gmail.com','nelson','25/05/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (56, 'fotsojunior@gmail.com','junior123', '17/06/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (57, 'makololaure@gmail.com', 'lizalove123','29/06/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (58, 'lauretatiana@gmail.com','laure',  '01/07/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (59, 'tokomichele@gmail.com', 'toko.michele', '15/07/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (60, 'sianoucabrel@gmail.com', 'cabrel456@', '19/08/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (61, 'samybodio@gmail.com','samy789.', '20/09/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (62, 'maximejunior@gmail.com', 'yvana789','09/07/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (63, 'tankoleila@gmail.com', 'leila745', '01/05/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (64, 'tchindayvana@gmail.com', 'yvana@123', '01/09/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (65, 'ndombelesly@gmail.com', 'lesly763', '15/09/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (66, 'tangomojoseph@gmail.com', 'joseph429', '20/09/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (67, 'bavouaborel@gmail.com', 'borel123', '04/10/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (68, 'tchepdaornella@gmail.com', 'ornellamaelisse','20/10/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (69, 'ndjakoupstephy@gmail.com', 'stephy45', '05/11/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (70, 'nguegangstive@gmail.com', 'stive05', '10/12/2022');
+insert into UTILISATEURS (id_utilisateur, email, mot_de_passe, jours_inscription) values (71, 'nikiledjilaure@gmail.com', 'laure713', '27/08/2022');
