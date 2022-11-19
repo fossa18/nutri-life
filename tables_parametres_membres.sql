@@ -1,30 +1,13 @@
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (12, 42, '78', '1,70','15/01/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (13, 43, '84', '2,70','14/02/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (14, 44, '79', '2,56', '20/03/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (15, 45, '78', '1,95','18/02/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (16, 46, '89', '1,74', '20/01/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (17, 47, '74', '1,69', '28/03/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (18, 48, '72', '1,90','10/04/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (19, 49, '72', '1,91', '19/04/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (20, 50, '80', '1,89', '05/05/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (21, 51, '81', '1,95', '07/06/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (22, 52, '79', '1,90', '15/06/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (23, 53, '74', '1,79', '01/07/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (24, 54, '80', '1,69', '15/05/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (25, 55, '78', '1,74', '25/05/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (26, 56, '85', '1,90', '17/06/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (27, 57, '75', '1,69', '29/06/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (28, 58, '76', '1,78','01/07/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (29, 59, '79', '1,79', '15/07/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (30, 60, '80', '1,60', '19/08/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (31, 61, '70', '1,89', '20/09/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (32, 62, '75', '1,90', '09/07/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (33, 63, '88', '1,76', '01/05/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (34, 64, '76', '1,83', '01/09/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (35, 65, '75', '1,79', '15/09/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (36, 66, '75', '1,70', '20/09/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (37, 67, '73', '1,66', '04/11/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (38, 68, '71', '1,89', '20/10/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (39, 69, '79', '1,88' ,'05/11/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (40, 70, '74', '1,60', '10/12/2022');
-insert into PARAMETRES_MEMBRES (id_personne, id_utilisateur, masse_actuel, taille_utilisateur, date_debut_abonnement) values (41, 71, '78','1,75', '27/08/2022');
+--
+-- create table PARAMETRES_MEMBRES by GROUPE 8
+--
+
+CREATE TABLE PARAMETRES_MEMBRES 
+(
+  id_personne           NUMBER(10) PRIMARY KEY NOT NULL, 
+  id_utilisateur        NUMBER(10) NOT NULL, 
+  masse_actuel          VARCHAR2(10) NOT NULL, 
+  taille_utilisateur    VARCHAR2(10) NOT NULL, 
+  date_debut_abonnement DATE NOT NULL
+);
+

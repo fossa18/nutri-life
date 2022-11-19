@@ -1,30 +1,12 @@
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(101, 01, 'Lundi', '2heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(102, 02, 'Mardi', '1heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(103, 03, 'Mercredi','2heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(104, 04, 'Jeudi', '2heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(105, 05, 'Vendredi', '1heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(106, 06, 'Samedi','3 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(107, 07, 'Dimanche','3 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(108, 08, 'Lundi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(109, 09, 'Mardi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(110, 10, 'Mercredi', '1heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(111, 11, 'Jeudi', '2heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(112, 12, 'Vendredi', '1heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(113, 13, 'Samedi', '2heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(114, 14, 'Dimanche', '3 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(115, 15, 'Lundi', '1heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(116, 16, 'Mardi', '2heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(117, 17, 'Mercredi', '3 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(118, 18, 'Jeudi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(119, 19, 'Vendredi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(120, 20, 'Samedi', '2heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(121, 21, 'Dimanche', '2 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(122, 22, 'Lundi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(123, 23, 'Mardi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(124, 24, 'Mercredi', '2 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(125, 25, 'Jeudi', '3 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(126, 26, 'Vendredi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(127, 27, 'Samedi', '3 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(128, 28, 'Dimanche', '3 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(129, 29, 'Lundi', '1 heure');
-INSERT INTO regimes_activites (id_regime_programme,id_activite, jours_activites, duree)values(130, 30, 'Mardi', '2 heure');
+--
+-- create table REGIMES_ACTIVITES by GROUPE 8
+--
+
+CREATE TABLE REGIMES_ACTIVITES 
+(
+  id_regime_programme NUMBER(10) PRIMARY KEY NOT NULL, 
+  id_activite         NUMBER(10) NOT NULL, 
+  jours_activites       VARCHAR2(10) NOT NULL, 
+  duree               VARCHAR2(7) NOT NULL 
+);
+
