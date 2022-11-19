@@ -1,0 +1,2 @@
+INSERT INTO profiles(id_personne,id_utilisateur,masse_actuel,taille_utilisateur,date_debut_abonnement)
+VALUES (&id_personne,&id_utilisateur,'&masse_actuel','&taille_utilisateur','&date_debut_abonnement');
