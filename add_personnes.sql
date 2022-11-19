@@ -1,0 +1,2 @@
+INSERT INTO PERSONNES (id_personne,nom_personne,prenom_personne,date_naissance,genre, poids_en_kg, taille_en_m, type_corps)
+VALUES (&id_personne,'&nom_personne','&prenom_personne','&date_naissance','&genre', '&poids_en_kg', '&taille_en_m', '&type_corps');
